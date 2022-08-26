@@ -78,7 +78,7 @@ h5{
   .cupid {
     position: absolute;
     top: 100px;
-    left: 10px;
+    left: 10%;
   }
   @keyframes myFancy {
     0%{
