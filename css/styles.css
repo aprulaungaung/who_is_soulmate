@@ -1,0 +1,92 @@
+body {
+
+  background-color: #00c6d4;
+  background-image: url("https://transparenttextures.com/patterns/food.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.title-bar {
+  text-align: center;
+  padding-top: 2%;
+}
+.aung_logo {
+  height: 100px;
+  margin-right: 5rem;
+  opacity: 0.5;
+}
+.title-bar h1 {
+  display: inline-block;
+  font-family: 'Delius Unicase', cursive;
+  color: #FBDF07;
+  text-shadow: 2px 2px #fff;
+}
+.input-information {
+  text-align: center;
+  margin-top: 3.125rem;
+}
+.images-container {
+  position: relative;
+  text-align: center;
+  padding-top: 6.25rem;
+}
+h5{
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  color: #D36B00;
+  border-style: dotted;
+}
+.soulmate {
+  height: 200px;
+
+}
+.greeting, .soulmate {
+  display: inline-block;
+}
+.greeting{
+  color: #fff;
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+}
+.cupid {
+  height: 300px;
+  transform: rotate(-20deg);
+  opacity: 0.5;
+}
+
+@keyframes myFancy {
+  0%{
+    transform: scale(1);
+  }
+
+  100%{
+    transform: scale(5);
+  }
+}
+
+@media (max-width: 600px){
+  .aung_logo {
+    margin-right: 2.5rem;
+  }
+  h5 {
+    margin: 15px 15px 0 0;
+    font-size: 16px;
+    border-style: none;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .cupid {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+  }
+  @keyframes myFancy {
+    0%{
+      transform: scale(1);
+    }
+
+    100%{
+      transform: scale(3);
+    }
+  }
+}
